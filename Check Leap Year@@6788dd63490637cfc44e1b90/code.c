@@ -3,7 +3,7 @@ int main()
 {
     int a,b;
     scanf("%d %d",&a,&b);
-    if(a%4==0)
+    if(a%4==0 || a%400)
     {
         printf("Leap Year");
     }
