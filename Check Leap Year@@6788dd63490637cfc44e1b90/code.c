@@ -9,7 +9,7 @@ int main()
     }
     if(a%400)
     {
-        printf("Leap Year")
+        printf("Leap Year");
     }
     else
     {
