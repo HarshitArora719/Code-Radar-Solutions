@@ -11,7 +11,7 @@ int main()
     {
         printf("Consonant");
     }
-    else if(a=!,@,#,$,%,^,&,*,(,),-)
+    else if(a=!,@,#,$,%,^,&,*,,-)
     {
         printf("Special Character");
     }
