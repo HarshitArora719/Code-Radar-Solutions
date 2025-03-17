@@ -1,17 +1,14 @@
 #include <stdio.h>
-int main()
-{
-    int a;
-    char d;
-    d=a%10;
-    scanf("%d",&a);
-    if(d==1 || a%2==0)
-    {
-        printf("Set");
+int main() {
+    int num;
+    printf("Enter a number: ");
+    scanf("%d", &num);
+    
+    if (num & 1) {
+        printf("The LSB of %d is 1.\n", num);
+    } else {
+        printf("The LSB of %d is 0.\n", num);
     }
-    else
-    {
-        printf("Not Set");
-    }
+
     return 0;
 }
