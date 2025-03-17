@@ -1,9 +1,11 @@
 #include <stdio.h>
 int main()
 {
-    int a,b;
-    scanf("%d",&a,&b);
-    if(LSB==0)
+    int a;
+    char d;
+    d=a%10;
+    scanf("%d",&a);
+    if(d==0)
     {
         printf("Set");
     }
