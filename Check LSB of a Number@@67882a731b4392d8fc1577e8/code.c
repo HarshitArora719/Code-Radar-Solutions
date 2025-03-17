@@ -5,7 +5,7 @@ int main()
     char d;
     d=a%10;
     scanf("%d",&a);
-    if(d==0)
+    if(d==1)
     {
         printf("Set");
     }
