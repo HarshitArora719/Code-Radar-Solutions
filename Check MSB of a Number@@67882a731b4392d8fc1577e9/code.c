@@ -9,9 +9,9 @@ int main() {
             break;
         }
     }
-    if (msb_set)
-        printf("Set\n");
+    if (msb_set==1)
+        printf("Set");
     else
-        printf("Not Set\n");
+        printf("Not Set");
     return 0;
 }
