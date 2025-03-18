@@ -9,7 +9,7 @@ int main() {
             break;
         }
     }
-    printf("%d\n", msb);
+    printf("Set");
     return 0;
 }
 
