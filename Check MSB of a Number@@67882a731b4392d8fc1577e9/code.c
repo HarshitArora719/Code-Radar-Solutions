@@ -2,14 +2,16 @@
 int main() {
     int num;
     scanf("%d", &num);
-    int msb = 0;
+    int msb_set = 0;
     for (int i = 31; i >= 0; i--) {
         if (num & (1 << i)) {
-            msb = 1;
+            msb_set = 1;
             break;
         }
     }
-    printf("Set");
+    if (msb_set)
+        printf("Set\n");
+    else
+        printf("Not Set\n");
     return 0;
 }
-
