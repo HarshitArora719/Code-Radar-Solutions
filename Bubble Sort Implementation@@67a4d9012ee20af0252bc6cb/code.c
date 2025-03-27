@@ -21,7 +21,7 @@ void bubbleSort(int arr[],int n)
         }
     }
 }
-voidArray(int arr[]){
+void Array(int arr[]){
     for(int i=0;i<n;i++){
         printf("%d",arr[i])
     }
