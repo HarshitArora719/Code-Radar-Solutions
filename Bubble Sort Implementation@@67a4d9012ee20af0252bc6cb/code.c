@@ -23,6 +23,6 @@ void bubbleSort(int arr[],int n)
 }
 void printArray(int arr[],int n){
     for(int i=0;i<n;i++){
-        printf("%d\n",arr[i]);
+        printf("%d\t",arr[i]);
     }
 }
