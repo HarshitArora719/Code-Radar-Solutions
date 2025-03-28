@@ -16,9 +16,9 @@ int main() {
     scanf("%d", &num);
 
     if (isPrime(num)) {
-        printf("Yes");
-    } else {
         printf("No");
+    } else {
+        printf("Yes");
     }
     return 0;
 }
