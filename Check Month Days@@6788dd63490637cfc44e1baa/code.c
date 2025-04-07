@@ -11,9 +11,11 @@ int main() {
     {
         printf("%d",28);
     }
-    else 
+    else if(a==4||a==6||a==9||a==11)
     {
         printf("%d",30);
     }
+    else
+    printf("Invalid Month");
     return 0;
 }
