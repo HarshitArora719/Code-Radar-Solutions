@@ -1,15 +1,37 @@
 #include <stdio.h>
-
-int main() {
+int main()
+{
     int a;
-    const char *days[] = {"Invalid", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
-    scanf("%d", &a);
-    
-    if (a >= 1 && a <= 7) {
-        printf("%s", days[a]);
-    } else {
-        printf("Invalid");
+    scanf("%d",&a);
+    if(a==1)
+    {
+        printf("Monday");
     }
-
+    else if(a==2)
+    {
+        printf("Tuesday");
+    }
+    else if(a==3)
+    {
+        printf("Wednesday");
+    }
+    else if(a==4)
+    {
+        printf("Thursday");
+    }
+    else if(a==5)
+    {
+        printf("Friday");
+    }
+    else if(a==6)
+    {
+        printf("Saturday");
+    }
+    else if(a==7)
+    {
+        printf("Sunday");
+    }
+    else
+    printf("Invalid");
     return 0;
 }
