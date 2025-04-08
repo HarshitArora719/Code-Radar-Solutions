@@ -10,7 +10,9 @@ int main()
     int N;
     for(int i=0;i<N;i++)
     {
-        printf("Roll Number: ",struct.rollNo);
+        struct Student p[i];
+        scanf("%d %s %f",&p[i].rollNo,p[i].name,&p[i].marks);
+        printf("Roll Number: %d,",p[i].rollNo," Name: %s,",p[i].name," Marks: %f",p[i].marks)
     }
     return 0;
 }
