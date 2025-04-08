@@ -14,9 +14,6 @@ int main()
     for(int i=0;i<N;i++)
     {
         scanf("%d %s %f",&p[i].rollNo,p[i].name,&p[i].marks);
-    }
-    for(int i=0;i<N;i++)
-    {
         if(p[i].marks>h.marks)
         {
             h=p[i];
