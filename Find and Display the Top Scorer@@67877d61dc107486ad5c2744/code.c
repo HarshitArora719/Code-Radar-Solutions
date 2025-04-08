@@ -9,8 +9,8 @@ int main()
 {
     int N;
     scanf("%d",&N);
-    char h=p[1];
     struct Student p[N];
+    char h=p[1];
     for(int i=0;i<N;i++)
     {
         scanf("%d %s %f",&p[i].rollNo,p[i].name,&p[i].marks);
