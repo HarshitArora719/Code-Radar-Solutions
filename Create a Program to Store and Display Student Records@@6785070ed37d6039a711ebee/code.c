@@ -13,7 +13,7 @@ int main()
     for(int i=0;i<N;i++)
     {
         scanf("%d %s %f",&p[i].rollNo,p[i].name,&p[i].marks);
-        printf("Roll Number: %d,",p[i].rollNo," Name: %s,",p[i].name," Marks: %f",p[i].marks);
+        printf("Roll Number: %d, Name: %s, Marks: %f",p[i].rollNo,p[i].name,p[i].marks);
     }
     return 0;
 }
